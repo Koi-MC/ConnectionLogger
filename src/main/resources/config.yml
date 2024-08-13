@@ -1,0 +1,24 @@
+# ConnectionLogger user config file
+# Please be careful when changing these variables
+
+# It is recommended to use regions such as "America/New_York" instead of "EDT"
+# This is because region ignores daylight savings change from EDT to EST
+# A good default fallback is "UTC"
+timezone: "America/New_York"
+
+# Print connections to console?
+printToConsole: true
+
+# Log EVERY player connection (both whitelisted and not whitelisted) to a specific log file?
+# This log file is most useful to get an idea of total server player traffic
+### NOTE: Logging *BOTH* All Connections and Not Whitelisted Connections can be enabled at the same time, assuming
+###       that the filenames are different. There should never be a reason to have the same file name for both logs.
+logAllConnections: true
+logAllConnectionsFileName: "CL_AllConnections.txt"
+
+# Separately log only connections from players that are not whitelisted to a different/second log file?
+# This log file is most useful to get a clear,clean,simplified list of only bot/griefer accounts attempting to join private whitelisted SMPs
+### NOTE: Logging *BOTH* All Connections and Not Whitelisted Connections can be enabled at the same time, assuming
+###       that the filenames are different. There should never be a reason to have the same file name for both logs.
+logNotWhitelisted: true
+logNotWhitelistedFileName: "CL_NotWhitelisted.txt"

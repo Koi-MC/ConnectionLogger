@@ -1,0 +1,17 @@
+name: ConnectionLogger
+version: '1.0-MC1.21.1'
+main: koi.pond.connectionLogger.ConnectionLogger
+api-version: '1.21.1'
+authors:
+  - Koi_Pond
+description: Connection Logger
+commands:
+  connectionlogger:
+    description: Handles connection logging commands
+    usage: /<command> [version | reload | printToConsole true/false | logAllConnections true/false | logNotWhitelisted true/false]
+    aliases: [cl]
+    permission: connectionlogger.use
+permissions:
+  connectionlogger.use:
+    description: Allows global usage of all ConnectionLogger commands
+    default: op # default all commands to server operators only
