@@ -1,7 +1,7 @@
 # Connection Logger
 
 ### What is it?
-ConnectionLogger is a simple plugin which aims to provide Bukkit/Spiggot/Paper server admins with a set of quick, clean, and simple incoming player connection logs. It was originally designed on Minecraft 1.21 and will not be backported. There are no plans to port to Fabric or Forge.
+ConnectionLogger is a simple plugin which aims to provide Bukkit/Spigot/Paper server admins with a set of quick, clean, and simple incoming player connection logs. It was originally designed on Minecraft 1.21 and will not be backported. There are no plans to port to Fabric or Forge.
 
 ### Why?
 - Gameserver providers that do not operate as a VPS often will not let you run bash/python/whatever scripting languages are needed to parse huge Minecraft log dumps which contain way more than just incoming player connections
