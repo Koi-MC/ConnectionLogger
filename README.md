@@ -37,8 +37,3 @@ By default, ONLY server Ops will have access to the logger commands:
 ```
 These commands will change the true/false value of the config.yml, then reload the config for you, without having to restart the server.
 Note that "/cl" is an alias which will work in place of "/connectionlogger"
-
-### License
-**ARR, All Rights Reserved**
-
-The source code is public to allow for outside review & jar compilation. This is mainly to prove and ensure that there is nothing malicious in the code, as one may assume such a project could be dangerous by the nature of what it is doing
