@@ -19,7 +19,7 @@ logAllConnectionsFileName: "CL_AllConnections.txt"
 logNotWhitelisted: true
 logNotWhitelistedFileName: "CL_NotWhitelisted.txt"
 ```
-- Timezone displays what timezone you would like the connections to log as for easy of readability
+- Timezone displays what timezone you would like the connections to log as for ease of readability
 - Print to Console allows you to toggle if the connection logger will print the connections to console or not
 - Log All Connections will let you choose if you want every incoming connection logged to a file
 - Log All Connections File Name is the log file which will store all incoming connection attempts
